@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ChildUseCallback from "./components/ChildUseCallback";
+import HookCounter from "./components/HookCounter";
+import HookCounterFive from "./components/HookCounterFive";
+import HookCounterFour from "./components/HookCounterFour";
+import HookCounterThree from "./components/HookCounterThree";
+import HookCounterTwo from "./components/HookCounterTwo";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ParentComponent />
     </div>
   );
 }
