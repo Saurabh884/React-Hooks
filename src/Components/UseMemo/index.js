@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from 'react'
 
+
+//Definition :The useMemo hook is built into React, allowing you to memoize a value. In other words, useMemo caches the result of a function and returns the cached value whenever it's called again with the same arguments
 const UseMemo = () => {
     const [counterOne, setcounterOne] = useState(0);
     const [counterTwo, setCounterTwo] = useState(0);
